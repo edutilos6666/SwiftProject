@@ -1,0 +1,194 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ClassExample"
+provides-nominal:
+- "12SwiftProject12ClassExampleC"
+- "12SwiftProject12ClassExampleC6PersonC"
+- "12SwiftProject12ClassExampleC3BoxC"
+provides-member:
+- ["12SwiftProject12ClassExampleC", ""]
+- ["12SwiftProject12ClassExampleC6PersonC", ""]
+- ["12SwiftProject12ClassExampleC3BoxC", ""]
+depends-top-level:
+- !private "!="
+- !private "%"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private "<"
+- !private "<="
+- !private "=="
+- !private ">"
+- !private ">="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ClassExample"
+- "Double"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "print"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- ["12SwiftProject12ClassExampleC3BoxC", "Bool"]
+- ["12SwiftProject12ClassExampleC3BoxC", "Box"]
+- ["12SwiftProject12ClassExampleC3BoxC", "Double"]
+- !private ["12SwiftProject12ClassExampleC3BoxC", "Int"]
+- ["12SwiftProject12ClassExampleC3BoxC", "String"]
+- ["12SwiftProject12ClassExampleC3BoxC", "add"]
+- ["12SwiftProject12ClassExampleC3BoxC", "deinit"]
+- ["12SwiftProject12ClassExampleC3BoxC", "depth"]
+- ["12SwiftProject12ClassExampleC3BoxC", "div"]
+- ["12SwiftProject12ClassExampleC3BoxC", "eq"]
+- ["12SwiftProject12ClassExampleC3BoxC", "gt"]
+- ["12SwiftProject12ClassExampleC3BoxC", "gte"]
+- ["12SwiftProject12ClassExampleC3BoxC", "height"]
+- ["12SwiftProject12ClassExampleC3BoxC", "init"]
+- ["12SwiftProject12ClassExampleC3BoxC", "lt"]
+- ["12SwiftProject12ClassExampleC3BoxC", "lte"]
+- ["12SwiftProject12ClassExampleC3BoxC", "mod"]
+- ["12SwiftProject12ClassExampleC3BoxC", "mul"]
+- ["12SwiftProject12ClassExampleC3BoxC", "ne"]
+- ["12SwiftProject12ClassExampleC3BoxC", "str"]
+- ["12SwiftProject12ClassExampleC3BoxC", "sub"]
+- ["12SwiftProject12ClassExampleC3BoxC", "volume"]
+- ["12SwiftProject12ClassExampleC3BoxC", "width"]
+- !private ["s7CVarArgP", "init"]
+- ["12SwiftProject12ClassExampleC", "Bool"]
+- ["12SwiftProject12ClassExampleC", "Box"]
+- ["12SwiftProject12ClassExampleC", "Double"]
+- ["12SwiftProject12ClassExampleC", "Int"]
+- ["12SwiftProject12ClassExampleC", "Person"]
+- ["12SwiftProject12ClassExampleC", "String"]
+- ["12SwiftProject12ClassExampleC", "deinit"]
+- ["12SwiftProject12ClassExampleC", "example1"]
+- ["12SwiftProject12ClassExampleC", "example2"]
+- ["12SwiftProject12ClassExampleC", "init"]
+- !private ["12SwiftProject12ClassExampleC", "print"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "init"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "init"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s7NumericP", "init"]
+- ["12SwiftProject12ClassExampleC6PersonC", "Bool"]
+- ["12SwiftProject12ClassExampleC6PersonC", "Double"]
+- ["12SwiftProject12ClassExampleC6PersonC", "Int"]
+- ["12SwiftProject12ClassExampleC6PersonC", "String"]
+- ["12SwiftProject12ClassExampleC6PersonC", "active"]
+- ["12SwiftProject12ClassExampleC6PersonC", "age"]
+- ["12SwiftProject12ClassExampleC6PersonC", "deinit"]
+- ["12SwiftProject12ClassExampleC6PersonC", "id"]
+- ["12SwiftProject12ClassExampleC6PersonC", "init"]
+- ["12SwiftProject12ClassExampleC6PersonC", "name"]
+- ["12SwiftProject12ClassExampleC6PersonC", "str"]
+- ["12SwiftProject12ClassExampleC6PersonC", "wage"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- "12SwiftProject12ClassExampleC3BoxC"
+- !private "s7CVarArgP"
+- "12SwiftProject12ClassExampleC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "Sd"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- !private "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s7NumericP"
+- "12SwiftProject12ClassExampleC6PersonC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/home/edutilos/Applications/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/edutilos/Applications/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/edutilos/Applications/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "fbde6c619535b637e5fdb1eadff72361"

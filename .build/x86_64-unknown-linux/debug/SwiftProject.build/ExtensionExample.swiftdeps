@@ -1,0 +1,201 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ExtensionExample"
+provides-nominal:
+- "12SwiftProject16ExtensionExampleC"
+provides-member:
+- ["Si", ""]
+- ["12SwiftProject16ExtensionExampleC", ""]
+- ["Si", "add"]
+- ["Si", "sub"]
+- ["Si", "mul"]
+- ["Si", "div"]
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- "ExtensionExample"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "StringLiteralType"
+- !private "print"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "add"]
+- !private ["s13BinaryIntegerP", "div"]
+- !private ["s13BinaryIntegerP", "mul"]
+- !private ["s13BinaryIntegerP", "sub"]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "div"]
+- !private ["s7CVarArgP", "mul"]
+- !private ["s7CVarArgP", "sub"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "add"]
+- !private ["s10ComparableP", "div"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "mul"]
+- !private ["s10ComparableP", "sub"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "add"]
+- !private ["s29CustomPlaygroundQuickLookableP", "div"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "mul"]
+- !private ["s29CustomPlaygroundQuickLookableP", "sub"]
+- !private ["s17CustomReflectableP", "add"]
+- !private ["s17CustomReflectableP", "div"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "mul"]
+- !private ["s17CustomReflectableP", "sub"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "div"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "mul"]
+- !private ["s23CustomStringConvertibleP", "sub"]
+- !private ["s9DecodableP", "add"]
+- !private ["s9DecodableP", "div"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "mul"]
+- !private ["s9DecodableP", "sub"]
+- !private ["s9EncodableP", "add"]
+- !private ["s9EncodableP", "div"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "mul"]
+- !private ["s9EncodableP", "sub"]
+- !private ["s9EquatableP", "add"]
+- !private ["s9EquatableP", "div"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "mul"]
+- !private ["s9EquatableP", "sub"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "add"]
+- !private ["s27ExpressibleByIntegerLiteralP", "div"]
+- !private ["s27ExpressibleByIntegerLiteralP", "mul"]
+- !private ["s27ExpressibleByIntegerLiteralP", "sub"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["12SwiftProject16ExtensionExampleC", "deinit"]
+- ["12SwiftProject16ExtensionExampleC", "example1"]
+- ["12SwiftProject16ExtensionExampleC", "init"]
+- !private ["12SwiftProject16ExtensionExampleC", "print"]
+- !private ["s17FixedWidthIntegerP", "add"]
+- !private ["s17FixedWidthIntegerP", "div"]
+- !private ["s17FixedWidthIntegerP", "mul"]
+- !private ["s17FixedWidthIntegerP", "sub"]
+- !private ["s8HashableP", "add"]
+- !private ["s8HashableP", "div"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "mul"]
+- !private ["s8HashableP", "sub"]
+- ["Si", "Int"]
+- ["Si", "add"]
+- ["Si", "div"]
+- ["Si", "mul"]
+- ["Si", "sub"]
+- !private ["s25LosslessStringConvertibleP", "add"]
+- !private ["s25LosslessStringConvertibleP", "div"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "mul"]
+- !private ["s25LosslessStringConvertibleP", "sub"]
+- !private ["s10MirrorPathP", "add"]
+- !private ["s10MirrorPathP", "div"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "mul"]
+- !private ["s10MirrorPathP", "sub"]
+- !private ["s7NumericP", "add"]
+- !private ["s7NumericP", "div"]
+- !private ["s7NumericP", "mul"]
+- !private ["s7NumericP", "sub"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "add"]
+- !private ["s13SignedIntegerP", "div"]
+- !private ["s13SignedIntegerP", "mul"]
+- !private ["s13SignedIntegerP", "sub"]
+- !private ["s13SignedNumericP", "add"]
+- !private ["s13SignedNumericP", "div"]
+- !private ["s13SignedNumericP", "mul"]
+- !private ["s13SignedNumericP", "sub"]
+- !private ["s10StrideableP", "add"]
+- !private ["s10StrideableP", "div"]
+- !private ["s10StrideableP", "mul"]
+- !private ["s10StrideableP", "sub"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "add"]
+- !private ["s18_BitwiseOperationsP", "div"]
+- !private ["s18_BitwiseOperationsP", "mul"]
+- !private ["s18_BitwiseOperationsP", "sub"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "add"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "div"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "mul"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "sub"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "add"]
+- !private ["s11_StrideableP", "div"]
+- !private ["s11_StrideableP", "mul"]
+- !private ["s11_StrideableP", "sub"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "12SwiftProject16ExtensionExampleC"
+- !private "s17FixedWidthIntegerP"
+- !private "s8HashableP"
+- "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s7NumericP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/home/edutilos/Applications/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/edutilos/Applications/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/edutilos/Applications/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "35d8d3bc0392d4da7364a34ce3270f29"

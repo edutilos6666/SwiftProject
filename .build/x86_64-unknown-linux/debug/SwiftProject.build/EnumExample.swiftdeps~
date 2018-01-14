@@ -1,0 +1,219 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EnumExample"
+provides-nominal:
+- "12SwiftProject11EnumExampleC"
+- "12SwiftProject11EnumExampleC7ClimateO"
+- "12SwiftProject11EnumExampleC06RandomC0O"
+- "12SwiftProject11EnumExampleC5MonthO"
+provides-member:
+- ["12SwiftProject11EnumExampleC", ""]
+- ["12SwiftProject11EnumExampleC7ClimateO", ""]
+- ["12SwiftProject11EnumExampleC06RandomC0O", ""]
+- ["12SwiftProject11EnumExampleC5MonthO", ""]
+depends-top-level:
+- "=="
+- "Bool"
+- !private "BooleanLiteralType"
+- "Double"
+- "EnumExample"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["12SwiftProject11EnumExampleC7ClimateO", "America"]
+- ["12SwiftProject11EnumExampleC7ClimateO", "Asia"]
+- ["12SwiftProject11EnumExampleC7ClimateO", "Australia"]
+- ["12SwiftProject11EnumExampleC7ClimateO", "Europe"]
+- ["12SwiftProject11EnumExampleC7ClimateO", "__derived_enum_equals"]
+- ["12SwiftProject11EnumExampleC7ClimateO", "deinit"]
+- ["12SwiftProject11EnumExampleC7ClimateO", "hashValue"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EncodableP", "init"]
+- ["12SwiftProject11EnumExampleC", "Bool"]
+- ["12SwiftProject11EnumExampleC", "Climate"]
+- ["12SwiftProject11EnumExampleC", "Double"]
+- ["12SwiftProject11EnumExampleC", "Int"]
+- ["12SwiftProject11EnumExampleC", "Month"]
+- ["12SwiftProject11EnumExampleC", "RandomEnum"]
+- ["12SwiftProject11EnumExampleC", "String"]
+- ["12SwiftProject11EnumExampleC", "deinit"]
+- ["12SwiftProject11EnumExampleC", "example1"]
+- ["12SwiftProject11EnumExampleC", "example2"]
+- ["12SwiftProject11EnumExampleC", "example3"]
+- ["12SwiftProject11EnumExampleC", "init"]
+- !private ["12SwiftProject11EnumExampleC", "print"]
+- ["12SwiftProject11EnumExampleC", "printRandomEnum"]
+- ["s9EquatableP", "America"]
+- ["s9EquatableP", "Asia"]
+- ["s9EquatableP", "Australia"]
+- ["s9EquatableP", "Europe"]
+- !private ["s9EquatableP", "March"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "America"]
+- ["s8HashableP", "Asia"]
+- ["s8HashableP", "Australia"]
+- ["s8HashableP", "Europe"]
+- !private ["s8HashableP", "March"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "rawValue"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["s10MirrorPathP", "init"]
+- ["12SwiftProject11EnumExampleC5MonthO", "April"]
+- ["12SwiftProject11EnumExampleC5MonthO", "August"]
+- ["12SwiftProject11EnumExampleC5MonthO", "December"]
+- ["12SwiftProject11EnumExampleC5MonthO", "February"]
+- ["12SwiftProject11EnumExampleC5MonthO", "January"]
+- ["12SwiftProject11EnumExampleC5MonthO", "July"]
+- ["12SwiftProject11EnumExampleC5MonthO", "June"]
+- ["12SwiftProject11EnumExampleC5MonthO", "Mai"]
+- ["12SwiftProject11EnumExampleC5MonthO", "March"]
+- ["12SwiftProject11EnumExampleC5MonthO", "November"]
+- ["12SwiftProject11EnumExampleC5MonthO", "October"]
+- ["12SwiftProject11EnumExampleC5MonthO", "RawValue"]
+- ["12SwiftProject11EnumExampleC5MonthO", "September"]
+- ["12SwiftProject11EnumExampleC5MonthO", "deinit"]
+- ["12SwiftProject11EnumExampleC5MonthO", "hashValue"]
+- ["12SwiftProject11EnumExampleC5MonthO", "init"]
+- ["12SwiftProject11EnumExampleC5MonthO", "rawValue"]
+- !private ["s7NumericP", "hashValue"]
+- ["12SwiftProject11EnumExampleC06RandomC0O", "Bool"]
+- ["12SwiftProject11EnumExampleC06RandomC0O", "Box"]
+- ["12SwiftProject11EnumExampleC06RandomC0O", "Double"]
+- ["12SwiftProject11EnumExampleC06RandomC0O", "Int"]
+- ["12SwiftProject11EnumExampleC06RandomC0O", "Person"]
+- ["12SwiftProject11EnumExampleC06RandomC0O", "Point"]
+- ["12SwiftProject11EnumExampleC06RandomC0O", "String"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "March"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", ""]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- "12SwiftProject11EnumExampleC7ClimateO"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "12SwiftProject11EnumExampleC"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "12SwiftProject11EnumExampleC5MonthO"
+- !private "s7NumericP"
+- "12SwiftProject11EnumExampleC06RandomC0O"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/home/edutilos/Applications/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/edutilos/Applications/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/edutilos/Applications/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "30bd8f8a77b6a2d504617c66a6af6e92"
